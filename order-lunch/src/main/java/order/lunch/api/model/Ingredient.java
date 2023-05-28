@@ -4,6 +4,9 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.time.LocalDate;
 
+/**
+ * The class represents the ingredients that we are going to use to make a recipe.
+ */
 @Entity
 public class Ingredient {
 

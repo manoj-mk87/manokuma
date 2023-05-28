@@ -23,6 +23,7 @@ public class DaoService {
     }
 
     public List<Recipe> getRecipeByIngredients(String[] ingredients) {
+        // Find recipe by ingredient title
         return recipeRepository.findByIngredients_titleIn(ingredients);
     }
 
