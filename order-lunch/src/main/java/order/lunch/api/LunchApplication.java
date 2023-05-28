@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LunchApplication {
 
     public static void main(String[] args) {
+        // Application starts here
         SpringApplication.run(LunchApplication.class, args);
     }
 }
