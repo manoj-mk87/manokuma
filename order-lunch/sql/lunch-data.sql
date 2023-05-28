@@ -8,6 +8,7 @@ CREATE TABLE ingredient (
 INSERT INTO ingredient (TITLE, BEST_BEFORE, USE_BY) VALUES
     ('Ham','2030-12-31','2030-01-01'),
     ('Cheese','1999-01-01','2030-01-01'),
+    ('pizza','1999-01-01','2030-01-01'),
     ('Bread','2030-12-31','2030-01-01'),
     ('Butter','2030-12-31','2030-01-01'),
     ('Bacon','2030-12-31','2030-01-01'),
