@@ -14,6 +14,7 @@ public class DaoService {
     private RecipeRepository recipeRepository;
 
     public List<Recipe> getLunch(LocalDate bestBefore, LocalDate useBy){
+        // Query database to find recipe by ingredients that has not exceeded their expiry date
         return recipeRepository.findAllByIngredients_BestBeforeLessThanEqualAndIngredients_UseByGreaterThanEqual(bestBefore, useBy);
     }
 
